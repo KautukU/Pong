@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3a399778b86224a87e6c3c4dab6597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 7
   Scoreboard: {fileID: 807910507}
 --- !u!58 &93856433
 CircleCollider2D:

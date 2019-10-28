@@ -26,19 +26,26 @@ public class Ball : MonoBehaviour
         }
     }
 
+    private void FixedUpdate()
+    {
+        
+    }
+
+
+
     // Update is called once per frame
     void Update()
     {
-        if (ball.position.x > -9)
+        if (ball.position.x < -9)
         {
-            p1 += 1;
+            p2++;
 
             ball.position = new Vector2(0f, 0f);
             ball.velocity = new Vector2(-speed, 0f);
         }
-        if (ball.position.x < 9)
+        if (ball.position.x > 9)
         {
-            p2 += 1;
+            p1++;
 
             ball.position = new Vector2(0f, 0f);
             ball.velocity = new Vector2(speed, 0f);
